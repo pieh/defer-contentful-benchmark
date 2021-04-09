@@ -8,6 +8,8 @@ const contentfulConfig = {
   host: process.env.BENCHMARK_CONTENTFUL_HOST,
 };
 
+console.log({ contentfulConfig });
+
 const { spaceId, accessToken } = contentfulConfig;
 
 if (!spaceId || !accessToken) {
