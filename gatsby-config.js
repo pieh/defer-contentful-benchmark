@@ -3,9 +3,8 @@
 // });
 
 const contentfulConfig = {
-  spaceId: process.env.BENCHMARK_CONTENTFUL_SPACE_ID,
-  accessToken: process.env.BENCHMARK_CONTENTFUL_ACCESS_TOKEN,
-  host: process.env.BENCHMARK_CONTENTFUL_HOST,
+  spaceId: process.env.CONTENTFUL_SPACE_ID,
+  accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
 };
 
 console.log({ contentfulConfig });
